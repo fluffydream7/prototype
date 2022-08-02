@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+#joinsection {
+    padding-top: 106px;
+    max-width: 570px;
+    margin: 0 auto;
+}
+#joinsection .inner {
+    padding: 100px 0;
+}
+#joinsection .inner h2 {
+    font-size: 30px;
+    color: #282866;
+    text-align: center;
+    padding: 20px;
+}
+#joinsection .inner label {
+    display: block;
+}
+#joinsection #joinlog {
+    width: 77%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px 10px 10px;
+}
+#joinsection .joinbox .jointext button {
+    background: #282866;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    width: 18.5%;
+    height: 50px;
+    cursor: pointer;
+}
+#joinsection #joinpw, #joinsection #joinpw2 {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px 10px 10px;
+}
+#joinsection .info {
+
+}
+#joinsection h3 {
+    padding: 30px 0 5px 10px;
+    font-size: 18px;
+    color: #282866;
+}
+#joinsection h3 > span {
+    font-size: 15px;
+    color: #f00;
+    padding: 0 5px;
+}
+#joinsection .personal #name {
+    padding: 13px;
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#joinsection #year {
+    width: 205px;
+    margin-left: 10px;
+    padding: 13px;
+}
+#joinsection #month {
+    width: 200px;
+    padding: 13px;
+}
+#joinsection #day {
+    width: 140px;
+    padding: 13px;
+}
+#joinsection #phone {
+    padding: 13px;
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#joinsection .policy >div+div {
+    padding: 15px;
+    background: #e3e3ff;
+    border: 1px solid #282866;
+    border-radius: 5px;
+}
+#joinsection .policy .scroll {
+    height: 100px;
+    overflow-y: scroll;
+    line-height: 1.5;
+}
+#joinsection .policy .agreed input {
+    display: none;
+}
+#joinsection .policy .agreed h3 {
+    position: relative;
+}
+#joinsection .policy .agreed label {
+    background-image: url(../images/check3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    right: 55%;
+    cursor: pointer;
+}
+#joinsection .policy .agreed input:checked+label {
+    background-image: url(../images/check4.png);
+}
+#joinsection button {
+    width: 49.5%;
+    height: 50px;
+    background: #282866;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+#joinsection .button {
+    margin: 30px 0;
+}
+

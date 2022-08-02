@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹표준 퍼블리싱</title>
+    <script src="./js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/join.css">
+    <!--[if lt IE9]>
+        <script src="./js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<header id="header">
+    <div class="inner cf">
+        <h1><a href="/index.html"><img src="./images/logo.png" alt=""></a></h1>
+        <div class="membership">
+            <a href="/login.html">로그인</a>
+            <a href="/join.html">회원가입</a>
+        </div>
+        <nav id="nav">
+            <ul class="depth1 cf">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">블로그</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(기변형)</a></li>
+                        <li><a href="#">목록</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">제품소개</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(확대)</a></li>
+                        <li><a href="#">목록</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">갤러리</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(가변형)</a></li>
+                        <li><a href="#">슬라이드</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">문의하기</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="joinsection">
+    <div class="inner">
+        <h2>JOIN IN</h2>
+        <div class="joinbox">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>아이디</legend>
+                    <label class="jointext">
+                        <input type="text" id="joinlog" placeholder="아이디를 입력해주세요.">
+                        <button type="button">중복체크</button>
+                    </label>
+                    <legend>비밀번호</legend>
+                    <label class="jointext">
+                        <input type="password" id="joinpw" placeholder="비밀번호 8~12자 이내입니다.">
+                    </label>
+                    <legend>비밀번호확인</legend>
+                    <label class="jointext">
+                        <input type="password" id="joinpw2" placeholder="비밀번호를 다시 한번 입력해주세요.">
+                    </label>
+                        <div class="personal">
+                            <h3>이름<span>*필수</span></h3>
+                            <input type="text" id="name">
+                        </div>
+                        <div>
+                            <h3>생년월일<span>*필수</span></h3>
+                            <select name="year" id="year">
+                                <option>year</option>
+                                <option value="2022">2022년</option>
+                                <option value="2021">2021년</option>
+                                <option value="2020">2020년</option>
+                            </select>
+                            <select name="month" id="month">
+                                <option>month</option>
+                                <option value="12">12월</option>
+                                <option value="11">11월</option>
+                                <option value="10">10월</option>
+                            </select>
+                            <select name="day" id="day">
+                                <option>day</option>
+                                <option value="1">1일</option>
+                                <option value="2">2일</option>
+                                <option value="3">3일</option>
+                            </select>
+                        </div>
+                        <div>
+                        <h3>휴대폰번호<span>*필수</span></h3>
+                        <input type="text" id="phone">
+                        </div>
+                        <div class="policy">
+                            <form action="#" method="post">
+                                <div class="agreed">
+                                    <h3>개인정보 수집 및 이용약관
+                                        <input type="checkbox" id="agree">
+                                        <label for="agree"></label>
+                                    </h3>
+                                </div>
+                                <div>
+                                    <div class="scroll">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, nesciunt. Nesciunt distinctio necessitatibus eos hic in laborum laboriosam dolorem iure saepe ex quo non adipisci, ad minus officia nobis molestias.
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eum debitis dolorum aut. Laudantium, voluptatibus suscipit ad, voluptatem commodi veritatis corrupti deleniti facilis atque, alias consectetur fugit ipsam vitae officiis.
+                                        Incidunt sit, ipsum fugit autem, harum ullam asperiores aliquam voluptate dolorum reprehenderit nostrum facilis id reiciendis ipsam cupiditate, quibusdam delectus saepe ea sint! Corporis odio nisi, error nam explicabo sunt!
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p class="button">
+                            <button type="submit">Join</button>
+                            <button type="reset">Cancel</button>
+                        </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="inner">
+        <div class="sns">
+            <a href="#"><span class="blind">페이스북</span><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><span class="blind">트위터</span><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><span class="blind">인스타그램</span><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><span class="blind">유튜브</span><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="contact">
+            <a href="tel: 02-111-1111">전화번호 : (02) 111-1111</a>
+            <a href="mailto: gallerypiece@cafe24.com">이메일 주소 : gallerypiece@cafe24.com</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

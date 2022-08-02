@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+#loginsection {
+    padding-top: 106px;
+}
+#loginsection .inner {
+    padding: 100px 0;
+}
+#loginsection .inner h2 {
+    font-size: 30px;
+    color: #282866;
+    text-align: center;
+    padding: 20px;
+}
+#loginsection .inner .loginbox {
+    width: 570px;
+    margin: 0 auto;
+}
+#loginsection .inner label {
+    display: block;
+}
+#loginsection #log, #loginsection #pw {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px 10px 10px;
+}
+#loginsection .loginbox .logintext input:focus {
+    background: #ffe2e7;
+    border: 1px solid #f00;
+}
+#loginsection .loginbox .logintext .redtext {
+    font-size: 12px;
+    color: #f00;
+    padding: 5px 10px 10px;
+    opacity: 0;
+    transition: all 0.9s;
+}
+#loginsection .loginbox .logintext input:focus+.redtext {
+    opacity: 1;
+}
+#loginsection #save {
+    display: none;
+}
+#loginsection .idcheck {
+    margin-top: 10px;
+}
+#loginsection .idcheck .back {
+    background-image: url(../images/check.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+#loginsection .idcheck label {
+    display: inline-block;
+    height: 18px;
+    margin-left: 10px;
+}
+#loginsection .idcheck label .back {
+    width: 32px;
+    height: 32px;
+    background-position: -840px -694px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+#loginsection .idcheck input:checked+label>span {
+    background-image: url(../images/check2.png);
+    background-position: -840px -730px;
+}
+#loginsection button {
+    width: 100%;
+    background: #282866;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    margin: 40px 10px;
+    cursor: pointer;
+}
+#loginsection .sns {
+    text-align: center;
+}
+#loginsection a {
+    display: inline-block;
+    padding: 0 10px;
+}
+#loginsection .facebook img{
+    width: 50px;
+    height: 50px;
+}
+#loginsection .instagram img {
+    width: 50px;
+    height: 52px;
+}
+#loginsection .kakao img{
+    width: 60px;
+    height: 60px;
+}
+
+
